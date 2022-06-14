@@ -144,8 +144,8 @@ def addSongsToPlaylist(playlist_id, tracks):
     return response_json
 
 # Inicializar variables
-auth_token = "BQBwtOWwVmqvQm1U31dVuwQj4BtpwD5sDDHMxZxZvGOSct6eADtYLcfno1j12LVDKpxHWmr_ijlTU5-Et-XyPMZFNtlzqip-eqHofTw5MZKgU0Rk2aMIRtMY8md9h0TnOZuSPuw9qBxebBazgUyvQEgCK8mVAElygKuHEZI0KJREUvGZqn-r8qMDT1sPtQ0MdS8Pobo2CTcO_0UeQmrKYtt-Cw"
-user_id = "gonzalopacheco38"
+auth_token = ""
+user_id = ""
 if auth_token is None: 
 	print("Authorization Token está vacio. Por favor, reinicie la aplicación después de configurar el token.")
 
